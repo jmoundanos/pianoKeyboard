@@ -1,10 +1,10 @@
 function playKeyboard(){
 
-	let pressColor = '#1BC0EA'; //color when key is pressed
+	let pressColor = '#008000'; //color when key is pressed
 
 
-	var isMobile = !!navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i);
-	if(isMobile) { var evtListener = ['touchstart', 'touchend']; } else { var evtListener = ['mousedown', 'mouseup']; }
+	// var isMobile = !!navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i);
+	// if(isMobile) { var evtListener = ['touchstart', 'touchend']; } else { var evtListener = ['mousedown', 'mouseup']; }
 
 	var __audioSynth = new AudioSynth();
 	__audioSynth.setVolume(0.5);
